@@ -97,12 +97,12 @@ the next command. Your program should be able to do the following:
 
   1. Give a prompt "myshell>" for the user to type in a command
   2. Implement the following built in commands:
-      a. `cd <dir>`     :   Changes the directory to dir
-      b. `pwd`          :   Prints the current directory
-      c. `mkdir <dir>`  :   Creates the directory dir
-      d. `rmdir <dir>`  :   Removes the directory dir
-      e. `ls`           :   Lists the files and directories in the present directory
-      f. `exit`         :   Exits out of the shell
+      1. `cd <dir>`     :   Changes the directory to dir
+      2. `pwd`          :   Prints the current directory
+      3. `mkdir <dir>`  :   Creates the directory dir
+      4. `rmdir <dir>`  :   Removes the directory dir
+      5. `ls`           :   Lists the files and directories in the present directory
+      6. `exit`         :   Exits out of the shell
   3. Any other command typed at the prompt should be executed as if it is the
   name of the executable file. For example - typing "a.out" should execute the
   file a.out. This file can be in the current directory or any of the other
