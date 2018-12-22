@@ -1,8 +1,10 @@
+# OS Lab Assignments
+
 This repository contains the solutions to the Operating Systems Lab Assignments
 given to CSE 5th semester students of 2018-19 batch.
 
 
-#### Assignment 1
+### Assignment 1
 
 __Topics:__ fork() system call
 
@@ -30,7 +32,7 @@ in the range of 50 - 100.
 __Files:__ [prog.c](https://github.com/ankan17/os-lab-assignments/blob/master/prog.c)
 
 
-#### Assignment 2
+### Assignment 2
 
 __Topics:__ exec() system call
 
@@ -54,7 +56,7 @@ achieve the desired result. For example -
 __Files:__ [half.c](https://github.com/ankan17/os-lab-assignments/blob/master/half.c) [twice.c](https://github.com/ankan17/os-lab-assignments/blob/master/twice.c) [square.c](https://github.com/ankan17/os-lab-assignments/blob/master/square.c)
 
 
-#### Assignment 3
+### Assignment 3
 
 __Topics:__ Interprocess communication through pipe, signal handling
 
@@ -83,7 +85,7 @@ scores of C and D in order to let the user know how the game is going on.
 __Files:__ [childsgame.c](https://github.com/ankan17/os-lab-assignments/blob/master/childsgame.c)
 
 
-#### Assignment 4
+### Assignment 4
 
 __Topics:__ Different system calls
 
@@ -95,12 +97,12 @@ the next command. Your program should be able to do the following:
 
   1. Give a prompt "myshell>" for the user to type in a command
   2. Implement the following built in commands:
-    a) cd <dir>     :   Changes the directory to dir
-    b) pwd          :   Prints the current directory
-    c) mkdir <dir>  :   Creates the directory dir
-    d) rmdir <dir>  :   Removes the directory dir
-    e) ls           :   Lists the files and directories in the present directory
-    f) exit         :   Exits out of the shell
+      a. `cd <dir>`     :   Changes the directory to dir
+      b. `pwd`          :   Prints the current directory
+      c. `mkdir <dir>`  :   Creates the directory dir
+      d. `rmdir <dir>`  :   Removes the directory dir
+      e. `ls`           :   Lists the files and directories in the present directory
+      f. `exit`         :   Exits out of the shell
   3. Any other command typed at the prompt should be executed as if it is the
   name of the executable file. For example - typing "a.out" should execute the
   file a.out. This file can be in the current directory or any of the other
@@ -115,7 +117,7 @@ Name this file as myshell.c.
 __Files:__ [myshell.c](https://github.com/ankan17/os-lab-assignments/blob/master/myshell.c)
 
 
-#### Assignment 5
+### Assignment 5
 
 __Topics:__ Semaphore, shared memory
 
@@ -155,7 +157,7 @@ semaphores you are using and how they are used. Submit the files X.c and Y.c.
 __Files:__ X.c, Y.c
 
 
-#### Assignment 6
+### Assignment 6
 
 __Topics:__ Threads
 
