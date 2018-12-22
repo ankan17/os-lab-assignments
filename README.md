@@ -169,3 +169,5 @@ threads to complete their task and it will compute the multiplication of the two
 previously obtained output and print the final output.
 
 __Files:__ [pthread.c](https://github.com/ankan17/os-lab-assignments/blob/master/pthread.c)
+ [matrix1.txt](https://github.com/ankan17/os-lab-assignments/blob/master/matrix1.txt)
+ [matrix2.txt](https://github.com/ankan17/os-lab-assignments/blob/master/matrix2.txt)
